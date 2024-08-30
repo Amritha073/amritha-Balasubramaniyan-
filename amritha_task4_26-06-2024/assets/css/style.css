@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #502694;
+    color: white;
+    text-align: center;
+}
+
+.pricing-table {
+    padding: 50px 0;
+}
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+p {
+    font-size: 1.2em;
+
+}
+    
+.pricing-cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 50px;
+}
+.card {
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    padding: 20px;
+    width: 200px;
+    height: 50vh;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+
+}
+.card h2{
+    color: #4caf50;
+}
+.card:hover {
+    transform: scale(1.05);
+}
+.dollar{
+    vertical-align: top;
+}
+.popular {
+    border: 2px;
+    position: relative;
+}
+.popular::before {
+    content: "MOST POPULAR";
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    width: 220px;
+    transform: translateX(-50%);
+    background-color: black;
+    color: white;
+    padding: 9px 10px;
+    font-size: 0.8em;
+}
+.price {
+    font-size: 2em;
+    margin: 20px 0;
+}
+
+.price span {
+    font-size: 0.5em;
+    color:black;
+}
+
+ul {
+    list-style: none;
+    text-align: left;
+}
+
+li {
+    margin: 5px 0;
+}
+
+button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 22px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+footer {
+    margin-top: 30px;
+    font-size: 0.8em;
+    color: #4caf50;
+}
+@media (max-width: 1200px) and (min-width:768px){
+    .card{
+        height: 57vh;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .card{
+        flex-direction: column;
+        align-items:center;
+        padding:20px;
+        height: 58vh;
+        margin-top:20px;
+        width:40vh;
+    
+    }
+}
