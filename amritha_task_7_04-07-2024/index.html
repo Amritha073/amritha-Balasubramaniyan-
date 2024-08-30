@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EzClean</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<!-- navbar section -->
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <input type="checkbox" id="toggle-menu">
+            <div class="logo"><span>EZ</span>CLEAN</div>
+        <nav>
+            <label for="toggle-menu" class="close-icon">&#10005;</label>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <label for="toggle-menu" class="menu-icon"><i class="fa fa-bars"></i></label>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="hero-text">
+                <h4>Leave the house cleaning chores to us</h4>
+                <h3>Let us do the dirty work, so you<br>don't have to.</h3>
+                <a href="#" class="btn">LEARN MORE</a>
+            </div>
+            <div class="hero-image">
+                <img src="./assets/images/bg.jpg" alt="Cleaning Service">
+            </div>
+        </section>
+    </main>
+ <!-- appointment section -->
+   
+ <section class="ez-appointment-container">
+    <div class="ez-appointment-wrapper">
+        <form id="appointmentForm" class="ez-form">
+            <div class="ez-form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" class="ez-name ez-form-control" placeholder="Your Name" required>
+            </div>
+            <div class="ez-form-group">
+                <label for="phone">Phone number</label>
+                <input type="tel" id="phone" class="ez-phone ez-form-control" placeholder="Phone number" required>
+            </div>
+            <div class="ez-form-group">
+                <label for="services">Select Services</label>
+                <select id="services" class="ez-services ez-form-control" required>
+                    <option value="">Select Services</option>
+                    <option value="cleaning">Cleaning</option>
+                    <option value="laundry">Laundry</option>
+                    <option value="gardening">Gardening</option>
+                </select>
+            </div>
+            <div class="ez-form-group">
+                <label for="cleaner">Select Cleaners</label>
+                <select id="cleaner" class="ez-cleaner ez-form-control" required>
+                    <option value="">Select Cleaners</option>
+                    <option value="john-doe">John Doe</option>
+                    <option value="william-smith">William Smith</option>
+                    <option value="danny-green">Danny Green</option>
+                    <option value="jason-thompson">Jason Thompson</option>
+                </select>
+            </div>
+            <div class="ez-form-btn">
+                <button type="submit" class="ez-btn">MAKE AN APPOINTMENT</button>
+            </div>
+        </form>
+    </div>
+</section>
+<section class="ez-content-section">
+    <div class="ez-container">
+        <div class="ez-row">
+            <div class="ez-column-half ez-image-column" style="background-image:url('./assets/images/about.jpg');">
+                <div class="ez-time-open-wrap">
+                    <div class="ez-desc">
+                        <h2>Business Hours</h2>
+                        <div class="ez-opening-hours">
+                            <h4>Opening Days:</h4>
+                            <p>
+                                <span><strong>Monday – Friday:</strong> 9am to 20pm</span><br>
+                                <span><strong>Saturday:</strong> 9am to 17pm</span>
+                            </p>
+                            <h4>Vacations:</h4>
+                            <p>
+                                <span>All Sunday Days</span><br>
+                                <span>All Official Holidays</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="ez-desc ez-bg-secondary">
+                        <h3 class="ez-heading">For Emergency Cases</h3>
+                        <span class="ez-phone-number">(+01) 123 456 7890</span>
+                    </div>
+                </div>
+            </div>
+            <div class="ez-column-half ez-content-column">
+                <div class="ez-content">
+                    <span class="ez-subheading">Welcome to EZCLEAN</span>
+                    <h2 class="ez-sb">Let's make you fresher than ever</h2>
+                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+                </div>
+                <div class="ez-counter-section">
+                    <div class="ez-counter">
+                        <div class="ez-number">45</div>
+                        <div class="ez-text">Years of <br>Experienced</div>
+                    </div>
+                    <div class="ez-counter">
+                        <div class="ez-number">2342</div>
+                        <div class="ez-text">Happy <br>Customers</div>
+                    </div>
+                    <div class="ez-counter">
+                        <div class="ez-number">30</div>
+                        <div class="ez-text">Building <br>Cleaned</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- work section -->
+    <section>
+        <div class="service-container">
+            <div class="service-row center-row">
+                <div class="service-heading text-center">
+                    <span class="service-subheading">Services</span>
+                    <h2>How We Work</h2>
+                </div>
+            </div>
+            <div class="service-row">
+                <div class="service-col">
+                    <div class="service-item">
+                        <div class="service-icon">
+                            <span class="flaticon-workplace"></span>
+                        </div>
+                        <div class="service-content">
+                            <h3 class="service-title">Office Cleaning</h3>
+                            <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+                            <p><a href="#" class="service-btn">Read more</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="service-col">
+                    <div class="service-item">
+                        <div class="service-icon">
+                            <span class="flaticon-pool"></span>
+                        </div>
+                        <div class="service-content">
+                            <h3 class="service-title">Pool Cleaning</h3>
+                            <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+                            <p><a href="#" class="service-btn">Read more</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="service-col">
+                    <div class="service-item">
+                        <div class="service-icon">
+                            <span class="flaticon-rug"></span>
+                        </div>
+                        <div class="service-content">
+                            <h3 class="service-title">Carpet Cleaning</h3>
+                            <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+                            <p><a href="#" class="service-btn">Read more</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="service-col">
+                    <div class="service-item">
+                        <div class="service-icon">
+                            <span class="flaticon-kitchen"></span>
+                        </div>
+                        <div class="service-content">
+                            <h3 class="service-title">Kitchen Cleaning</h3>
+                            <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+                            <p><a href="#" class="service-btn">Read more</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="service-col">
+                    <div class="service-item">
+                        <div class="service-icon">
+                            <span class="flaticon-garden"></span>
+                        </div>
+                        <div class="service-content">
+                            <h3 class="service-title">Garden Cleaning</h3>
+                            <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+                            <p><a href="#" class="service-btn">Read more</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="service-col">
+                    <div class="service-item">
+                        <div class="service-icon">
+                            <span class="flaticon-balcony"></span>
+                        </div>
+                        <div class="service-content">
+                            <h3 class="service-title">Window Cleaning</h3>
+                            <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+                            <p><a href="#" class="service-btn">Read more</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- team section -->
+    <div class="team-section">
+        <div class="team-content">
+            <h4 class="sub">team & staff</h4>
+            <h2  class="head" >Our Team</h2>
+            <p>A small river named Duden flows<br>by their place and supplies it with<br>the necessary regelialia. It is a<br>paradisematic country.</p>
+            <button class="view-all-btn">View All Staff</button>
+        </div>
+        <div class="team-cards">
+            <div class="team-card">
+                <img src="./assets/images/staff-1.jpg" alt="Lloyd Wilson">
+                <h3>Lloyd Wilson</h3>
+                <p>Office Cleaner</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-google"></i></a>
+                    <a href="#"><i class="fa fa-instagram"></i></a> 
+                </div>
+            </div> 
+            <div class="team-card">
+                <img src="./assets/images/staff-2.jpg" alt="Lloyd Wilson">
+                <h3>Lloyd Wilson</h3>
+                <p>Office Cleaner</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-google"></i></a>
+                    <a href="#"><i class="fa fa-instagram"></i></a>
+                </div>
+            </div>
+            
+            <div class="team-card">
+                <img src="./assets/images/staff-3.jpg" alt="Lloyd Wilson">
+                <h3>Lloyd Wilson</h3>
+                <p>Office Cleaner</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-google"></i></a>
+                    <a href="#"><i class="fa fa-instagram"></i></a>
+                </div>
+            </div>
+          
+        </div>
+    </div>
+    <!-- customer section-->
+    
+    <section class="testimonials">
+        <h3>Testimonials</h3>
+        <h2 class="section-title">Happy Customer</h2>
+        <div class="testimonials-container">
+            <div class="testimonial">
+                <div class="testimonial-header">
+                    <img src="./assets/images/person_1.jpg" alt="Roger Scott">
+                    <div class="testimonial-info">
+                        <h3>Roger Scott</h3>
+                        <p>Marketing Manager</p>
+                    </div>
+                    <div class="quote-icon">
+                        <i class="fas fa-quote-right"></i>
+                    </div>
+                </div>
+                <p class="testimonial-text">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+            </div>
+            <div class="testimonial">
+                <div class="testimonial-header">
+                    <img src="./assets/images/person_2.jpg" alt="Roger Scott">
+                    <div class="testimonial-info">
+                        <h3>Roger Scott</h3>
+                        <p>Marketing Manager</p>
+                    </div>
+                    <div class="quote-icon">
+                        <i class="fas fa-quote-right"></i>
+                    </div>
+                </div>
+                <p class="testimonial-text">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+            </div>
+            <div class="testimonial">
+                <div class="testimonial-header">
+                    <img src="./assets/images/person_3.jpg" alt="Roger Scott">
+                    <div class="testimonial-info">
+                        <h3>Roger Scott</h3>
+                        <p>Marketing Manager</p>
+                    </div>
+                    <div class="quote-icon">
+                        <i class="fas fa-quote-right"></i>
+                    </div>
+                </div>
+                <p class="testimonial-text">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+            </div>
+        </div>
+        <div class="navigation-dots">
+            <span class="dot active"></span>
+            <span class="dot"></span>
+        </div>
+    </section>
+   <!-- our project section-->
+    <section class="projects-section">
+        <h2 class="section-title">Our Project</h2>
+        <h1 class="section-subtitle">We have done many latest cleaning project</h1>
+        <div class="projects-grid">
+            <div class="project-item">
+                <img src="./assets/images/work-1.jpg" alt="Cleaning Project 1">
+            </div>
+            <div class="project-item">
+                <img src="./assets/images/work-2.jpg" alt="Cleaning Project 2">
+            </div>
+            <div class="project-item">
+                <img src="./assets/images/work-3.jpg" alt="Cleaning Project 3">
+            </div>
+            <div class="project-item">
+                <img src="./assets/images/work-4.jpg" alt="Cleaning Project 4">
+            </div>
+            <div class="project-item">
+                <img src="./assets/images/work-5.jpg" alt="Cleaning Project 5">
+            </div>
+            <div class="project-item">
+                <img src="./assets/images/work-6.jpg" alt="Cleaning Project 6">
+            </div>
+            <div class="project-item">
+                <img src="./assets/images/work-7.jpg" alt="Cleaning Project 7">
+            </div>
+            <div class="project-item">
+                <img src="./assets/images/work-8.jpg" alt="Cleaning Project 8">
+            </div>
+        </div>
+    </section>
+</body>
+</html>
+<!-- news & blog section-->
+ 
+<div class="flex-box">
+    <h4>News & Blog</h4>
+    <h2>Latest News</h2>
+<div class="news-cards">
+    <div class="news-card">
+        <img src="./assets/images/image_1.jpg" alt="Cleaning Tips">
+        <div class="card-content">
+            <div class="author">
+                <img src="./assets/images/person_2.jpg" alt="Author">
+                <div>
+                    <p>Posted by John Doe</p>
+                    <h4>04 March 2020</h4>
+                </div>
+            </div>
+            <h3>10 Tips to clean your window</h3>
+            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
+        </div>
+    </div>
+    <div class="news-card">
+        <img src="./assets/images/image_2.jpg" alt="Cleaning Tips">
+        <div class="card-content">
+            <div class="author">
+                <img src="./assets/images/person_3.jpg" alt="Author">
+                <div>
+                    <p>Posted by John Doe</p>
+                    <h4>04 March 2020</h4>
+                </div>
+            </div>
+            <h3>10 Tips to clean your window</h3>
+            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
+        </div>
+    </div>
+    <div class="news-card">
+        <img src="./assets/images/image_3.jpg" alt="Cleaning Tips">
+        <div class="card-content">
+            <div class="author">
+                <img src="./assets/images/person_1.jpg" alt="Author">
+                <div>
+                    <p>Posted by John Doe</p>
+                    <h4>04 March 2020</h4>
+                </div>
+            </div>
+            <h3>10 Tips to clean your window</h3>
+            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
+        </div>
+    </div>
+</div>
+</div>
+<!--price & plan section-->
+<div class="ms">
+    <h3>PRICE & PLANS</h3>
+    <h1>Choose Your Perfect Plans</h1>
+    <div class="pricing-container">
+        <div class="plan">
+            <img src="./assets/images/am1.jpeg" alt="Cleaning Tips">
+            <h4>STARTER</h4>
+            <div class="price">$49</div>
+            <ul class="features">
+                <li><i class="fa fa-check"></i>Bedrooms cleaning</li>
+                <li><i class="fa fa-check"></i>Vacuuming</li>
+                <li><i class="fa fa-check"></i>Bathroom cleaning</li>
+                <li><i class="fa fa-check"></i>Mirror cleaning</li>
+                <li><i class="fa fa-check"></i>Livingroom cleaning</li>
+            </ul>
+            <a href="#" class="btn">GET STARTED</a>
+        </div>
+        <div class="plan featured">
+            <h4>STANDARD</h4>
+            <img src="./assets/images/am2.jpeg" alt="Cleaning Tips">
+            <div class="price">$79</div>
+            <ul class="features">
+                <li><i class="fa fa-check"></i>Bedrooms cleaning</li>
+                <li><i class="fa fa-check"></i>Vacuuming</li>
+                <li><i class="fa fa-check"></i>Bathroom cleaning</li>
+                <li><i class="fa fa-check"></i>Mirror cleaning</li>
+                <li><i class="fa fa-check"></i>Livingroom cleaning</li>
+            </ul>
+            <a href="#" class="btn">GET STARTED</a>
+        </div>
+        <div class="plan">
+            <img src="./assets/images/am3.jpg" alt="Cleaning Tips">
+            <h4>PREMIUM</h4>
+            <div class="price">$109</div>
+            <ul class="features">
+                <li><i class="fa fa-check"></i>Bedrooms cleaning</li>
+                <li><i class="fa fa-check"></i>Vacuuming</li>
+                <li><i class="fa fa-check"></i>Bathroom cleaning</li>
+                <li><i class="fa fa-check"></i>Mirror cleaning</li>
+                <li><i class="fa fa-check"></i>Livingroom cleaning</li>
+            </ul>
+            <a href="#" class="btn">GET STARTED</a>
+        </div>
+        <div class="plan"> 
+            <img src="./assets/images/am4.jpg" alt="Cleaning Tips">
+     
+            <h4>PLATINUM</h4>
+            <div class="price">$159</div>
+            <ul class="features">
+                <li><i class="fa fa-check"></i>Bedrooms cleaning</li>
+                <li><i class="fa fa-check"></i>Vacuuming</li>
+                <li><i class="fa fa-check"></i>Bathroom cleaning</li>
+                <li><i class="fa fa-check"></i>Mirror cleaning</li>
+                <li><i class="fa fa-check"></i>Livingroom cleaning</li>
+            </ul>
+            <a href="#" class="btn">GET STARTED</a>
+        </div>
+    </div>
+    <!--contact us section-->
+    
+    <div class="contact-container">
+        <div class="contact-info">
+            <div class="info-item">
+                <div class="icon-box">
+                    <i class="fas fa-map-marker-alt"></i>
+                </div>
+                <p>Address: 198 West 21th Street, Suite 721 New York NY 10016</p>
+            </div>
+            <div class="info-item">
+                <div class="icon-box">
+                    <i class="fas fa-phone-alt"></i>
+                </div>
+                <p>Phone: + 1235 2355 98</p>
+            </div>
+            <div class="info-item">
+                <div class="icon-box">
+                    <i class="fas fa-envelope"></i>
+                </div>
+                <p>Email: <a href="mailto:info@yoursite.com">info@yoursite.com</a></p>
+            </div>
+            <div class="info-item">
+                <div class="icon-box">
+                    <i class="fas fa-globe"></i>
+                </div>
+                <p>Website: <a href="http://yoursite.com">yoursite.com</a></p>
+            </div>
+        </div>
+        <div class="contact-form-container">
+            <form class="contact-form">
+                <h2>Contact Us</h2>
+                <p>Your message was sent, thank you!</p>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" placeholder="Name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" placeholder="Email" required>
+                    </div>
+                </div>
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+            <div class="image-container">
+                <img src="./assets/images/about.jpg" alt="Cleaner with vacuum cleaner">
+            </div>
+        </div>
+    </div>
+    
+<!---footer section--->
+
+<footer class="ezclean-footer">
+    <div class="footer-container">
+        <div class="footer-about">
+            <h3>EzClean</h3>
+            <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+            <div class="footer-social-icons">
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+        <div class="footer-news">
+            <h3>Latest News</h3>
+            <div class="footer-news-item">
+                <img src="./assets/images/image_1.jpg" alt="News">
+                <div class="footer-news-content">
+                    <p>Even the all-powerful Pointing has no control about</p>
+                    <span>Mar. 04, 2020 Admin 19</span>
+                </div>
+            </div>
+            <div class="footer-news-item">
+                <img src="./assets/images/image_2.jpg" alt="News">
+                <div class="footer-news-content">
+                    <p>Even the all-powerful Pointing has no control about</p>
+                    <span>Mar. 04, 2020 Admin 19</span>
+                </div>
+            </div>
+        </div>
+        <div class="footer-links">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Works</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <div class="footer-contact">
+            <h3>Have a Questions?</h3>
+            <ul class="footer-contact-info">
+                <li><i class="fas fa-map-marker-alt"></i> 203 Fake St. Mountain View, San Francisco, California, USA</li>
+                <li><i class="fas fa-phone-alt"></i> +2 392 3929 210</li>
+                <li><i class="fas fa-envelope"></i> <a href="mailto:info@yourdomain.com">info@yourdomain.com</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>Copyright © All rights reserved</p>
+    </div>
+</footer>
+</body>
+</html>
+
