@@ -1,0 +1,163 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Header Styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.logo{
+    height: 50px;
+}
+.logo img {
+    height: 50px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li {
+    margin: 0 10px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #007BFF;
+}
+
+.hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.hamburger .bar {
+    width: 25px;
+    height: 3px;
+    background-color: black;
+    margin: 3px 0;
+}
+
+/* Sidebar Styles */
+.menu-overlay {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    height: 100vh;
+    width: 230px;
+    background-color: rgba(255, 255, 255, 0.5); /* Glass-like transparent background */
+    backdrop-filter: blur(5px);
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+    transition: right 0.3s;
+    display: flex;
+    flex-direction: column;
+    z-index: 2000;
+}
+
+.menu-overlay.show {
+    right: 0;
+}
+
+.close-btn {
+    align-self: flex-start;
+    padding: 0px 10px;
+    font-size: 3rem;
+    cursor: pointer;
+}
+
+.menu-overlay ul {
+    list-style: none;
+    margin: 5px;
+    padding-left: 5px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-overlay ul li {
+    margin: 15px;
+    text-align: left;
+}
+
+.menu-overlay ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.menu-overlay ul li a:hover {
+    color: #007BFF;
+}
+
+/* Main Image Styles */
+main {
+    position: relative;
+}
+
+.main-image {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.credit {
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    color: white;
+    font-size: 18px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+}
+
+@media (min-width: 769px) {
+    .nav-links {
+        display: flex;
+    }
+
+    .hamburger {
+        display: none;
+    }
+}
+
