@@ -1,0 +1,78 @@
+
+body {
+    background-color: #e0f7fa;
+    font-family: Arial, sans-serif;
+}
+.section-header, .section-supporter {
+    padding: 20px;
+}
+.section-header h3, .section-supporter h3 {
+    text-align: left;
+    font-weight: 600;
+    font-size: 20px;
+}
+.table-header {
+    background-color: #3B56A7;
+    color: white;
+    padding:10px;
+}
+.custom-table {
+    margin:10px;
+    border-collapse: separate;
+    border-spacing: 0;
+    width: 100%;
+    height:40vh;
+    overflow: hidden;
+    border-radius: 20px;
+}
+tr {
+    border-bottom: none !important;
+}
+.custom-table thead th:first-child {
+    border-top-left-radius: 60px;
+}
+.total-row td:first-child {
+    border-bottom-left-radius: 60px;
+}
+.custom-table thead th:last-child {
+    border-top-right-radius: 60px;
+}
+.total-row td:last-child {
+    border-bottom-right-radius: 60px;
+}
+.dotted-border td:last-child {
+    border: none;
+    border-right: 2px dotted rgb(78, 37, 37);
+}
+.dotted-border td:first-child {
+    border: none;
+    border-left: 2px dotted rgb(104, 38, 38);
+}
+.trademark {
+    font-size: 10px;
+    font-weight: 700;
+    vertical-align: top;
+    margin-bottom: 0;
+}
+.trademark-large {
+    font-size: large;
+    font-weight: 500;
+    text-shadow: 2px 2px 4px #ccc;
+}
+.section-header p, .section-supporter p {
+    font-size: 13px;
+    font-weight: 100;
+    line-height: 1.9;
+}
+.section-title h3 {
+    font-size: 22px;
+    font-weight: 600;
+}
+.decorative-line, .decorative-line2 {
+    display: inline-block;
+    color: #5C151A;
+    font-weight: bold;
+    font-size: 10px;
+    margin-top: 10px;
+    letter-spacing: 1px;
+}

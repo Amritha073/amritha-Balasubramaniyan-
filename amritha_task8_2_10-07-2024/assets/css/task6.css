@@ -1,0 +1,40 @@
+
+body {
+    background-color: #e0f7fa;
+    padding: 20px;
+  }
+  .fundraising-section {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .video-section {
+    margin-bottom: 20px;
+  }
+  .info-section {
+    margin-top: 20px;
+  }
+  .info-section h3 {
+    font-weight: bold;
+  }
+  .info-section p, .info-section ul {
+    margin: 10px 0;
+  }
+  .numbered-list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  .numbered-list span {
+    display: inline-block;
+    background-color: #0c2e53;
+    color: white;
+    width: 40px;
+    height:35px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 15px;
+    margin-right: 10px;
+    font-weight: bold;
+  }

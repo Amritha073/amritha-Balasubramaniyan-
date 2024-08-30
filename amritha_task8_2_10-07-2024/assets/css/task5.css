@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 50px;
+    color: #333;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 400px;
+    margin-bottom: 20px;
+}
+
+.card img {
+    width: 100%;
+    height:40vh;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.status, .category {
+    display: inline-block;
+    font-size: 14px;
+    color: #007bff;
+    margin: 5px 0;
+}
+
+h2 {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #333;
+}
+
+.raised {
+    font-size: 16px;
+    color: #333;
+    margin: 10px 0;
+}
+
+.progress-bar {
+    background-color: #f3f3f3;
+    border-radius: 4px;
+    overflow: hidden;
+    margin: 10px 0;
+}
+
+.progress {
+    height: 8px;
+    background-color: #007bff;
+}
+
+.days-left {
+    font-size: 14px;
+    color: #333;
+}
+
+.days-left i {
+    margin-right: 5px;
+}
